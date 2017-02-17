@@ -20,4 +20,5 @@ import echo.views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^lists/', echo.views.lists),
+    url(r'^add/',echo.views.add),
 ]
